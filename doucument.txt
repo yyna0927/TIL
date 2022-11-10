@@ -1,0 +1,11 @@
+[오라클]
+
+-인덱스 생성, 수정, 삭제
+
+생성> 
+CREATE INDEX ix_book ON book (publishere, price);
+--ix_book이라는 인덱스가 생성됩니다.
+
+삭제>
+DROP IMDEX ix_book;
+--ix_book 인덱스가 삭제되며 따로 조건을 안 줘도 됩니다. 
